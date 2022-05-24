@@ -1,0 +1,82 @@
+*:focus {
+    outline: 0 !important;
+}
+
+.alert{
+    max-width: 350px;
+    left: 36%;
+    padding: 10px;
+  }
+
+mat-card {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90%;
+    margin: auto;
+    text-align: center;
+
+    & .mat-card-content {
+
+        border: 1px white solid;
+        box-shadow: white;
+    }
+
+}
+
+mat-form-field {
+    display: block;
+}
+
+.bg {
+    font-family: "Karla", sans-serif;
+    background-image: linear-gradient(to bottom right, #7d63f1, #b1b8db);
+    min-height: 100vh;
+}
+
+.login-card {
+    border: 0;
+    border-radius: 27.5px;
+
+    overflow: hidden;
+
+    &-img {
+        border-radius: 0;
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .box {
+        height: 500px;
+        width: 100%;
+        border: none;
+    }
+
+    .vl {
+        border-left: 6px solid green;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .login-card-img {
+        width: 100%;
+    }
+
+    .mat-card {
+        margin: auto;
+    }
+}
+
+.login-box {
+    position: relative;
+    left: 5%;
+
+    @media (min-width: 768px) and (max-width:990px) {
+        margin-right: 8%;
+        margin-bottom: 10%;
+    }
+}

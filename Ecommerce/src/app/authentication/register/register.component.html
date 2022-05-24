@@ -1,0 +1,134 @@
+<div class="bg">
+    <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+      <div class="container">
+
+        <mat-card >
+          <mat-card-content>
+
+            <form [formGroup]="registerForm"  (ngSubmit)="onSubmit()">
+              <h2 class="text-center" style="color: #222735">Register</h2>
+              <mat-error *ngIf="!loginValid">
+                The username and password were not recognized
+              </mat-error>
+
+              <!-- FOR NAMEE -->
+              <mat-form-field>
+                <input
+                  matInput 
+                  formControlName="name"
+                  placeholder="Name"
+                  
+                  name="name"
+                  [(ngModel)]="name"
+                  required
+                />
+                <mat-error> Please provide a Name. </mat-error>
+              </mat-form-field>
+
+              <!-- FOR EMAILLL -->
+              <mat-form-field>
+                <input
+                  matInput
+                  formControlName="email"
+                  placeholder="Email"
+                  
+                  name="email"
+                  [(ngModel)]="email"
+                  required
+                />
+                <mat-error> Please provide a valid Email. </mat-error>
+              </mat-form-field>
+        
+              <!-- For GENDERRRR -->
+              <!-- <label>Gender:</label>
+                  <mat-button-toggle-group  name="gender" aria-label="Gender">
+                    <mat-button-toggle value="male">Male</mat-button-toggle>
+                    <mat-button-toggle value="female">Female</mat-button-toggle>
+                    <mat-button-toggle value="Others">Others</mat-button-toggle>
+                  </mat-button-toggle-group> -->
+        
+        
+              <!-- FOR NUMBERRR -->
+              <mat-form-field>
+                <input
+                  matInput
+                  formControlName="phone"
+                  type="number"
+                  placeholder="Contact"
+                  name="number"
+                  [(ngModel)]="phone"
+                  
+                  required
+                />
+                <span matPrefix>+91</span>
+                <mat-error> Please provide a valid Contact Info </mat-error>
+              </mat-form-field>
+        
+              <!--  FOR DATE OF BIRTHH-->
+              <mat-form-field>
+                <mat-label>Date of Birth</mat-label>
+                <input
+                  matInput
+                  formControlName="dob"
+                  [matDatepicker]="picker"
+                  [(ngModel)]="dob"
+                  
+                  required
+        
+                />
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+              </mat-form-field>
+        
+              <!-- FOR PASSWORDDDD -->
+              <mat-form-field>
+                <input
+                  matInput
+                  formControlName="password"
+                  
+                  [type]="hidePass ? 'password' : 'text'"
+                  placeholder="Password"
+                  name="password"
+                  [(ngModel)]="password"
+                  required
+                />
+                <button mat-icon-button matSuffix (click)="hidePass = !hidePass">
+                  <mat-icon>{{ hidePass ? "visibility_off" : "visibility" }}</mat-icon>
+                </button>
+                <mat-error> Please provide a valid password </mat-error>
+              </mat-form-field>
+        
+                        
+        
+              <label   style="float: left; margin-right: 20px;">Gender:</label>
+              <div class="form-check form-check-inline">
+                <input   class="form-check-input" type="radio" id="male" name="gender"  value="male">
+                <label class="form-check-label" for="male" >Male</label>
+              </div>
+              <div class="form-check form-check-inline ">
+                <input  class="form-check-input " type="radio" id="female" name="gender"  value="female">
+                <label class="form-check-label" for="female">Female</label>
+              </div>
+              <br>
+        
+              <div class="text-center">
+                <button class="text-center"
+                  mat-raised-button
+                  style="background-color: #222735; color: white;margin-top: 20px;"
+                  [disabled]="!name && !email && !dob && !phone && !password"
+                >
+                  Sign Up &nbsp; <mat-icon>check_circle</mat-icon>
+                </button>
+              </div>
+
+              <h4 class="text-center" style="margin-top: 30px;">
+                Already a member? &nbsp;
+                <button class="btn btn-sm btn-primary" routerLink="/login">Sign in</button>
+              </h4>
+            </form>
+
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </main>
+</div>

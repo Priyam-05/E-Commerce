@@ -1,0 +1,18 @@
+<div>
+    <h2><i>Electronic Applainces</i></h2>
+</div>
+<br/>
+<mat-divider></mat-divider>
+<br/>
+
+<div >
+    <ul>
+        <li *ngFor="let data of electronicsData; let i = index" class="card"  style="width: 320px;">
+            <mat-card>
+                <app-card [data]="electronicsData" [i]="i"></app-card>
+            </mat-card>
+        </li>
+        <br>
+    </ul>
+</div>
+

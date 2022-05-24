@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Lora:ital,wght@1,500&family=Satisfy&display=swap');
+
+h2{
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    li{
+        margin:15px
+    }
+}

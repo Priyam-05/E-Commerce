@@ -1,0 +1,54 @@
+.card{
+    padding: 12px;
+    padding-bottom: 0;
+    border: none;
+}
+
+img{
+    height: 250px;
+}
+
+.green{
+    background-color: #28a745;
+    color: rgb(247, 241, 241);
+    padding: 5px 10px;
+}
+
+.yellow{
+    background-color: #F3AC2F;
+    color: rgb(247, 241, 241);
+    padding: 5px 10px;
+}
+
+.red{
+    background-color: #DC3545;
+    color: rgb(247, 241, 241);
+    padding: 5px 10px;
+}
+
+.rating_text{
+    font-size: 16px;
+    vertical-align: top;
+}
+
+.fa-star{
+    font-size: 14px;
+}
+
+::ng-deep .snackbar{
+    background-color: #222735;
+    color: white;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    border-radius: 10px;
+}
+
+.details{
+    background-color: #2D485F;
+    color: white;
+}
+
+.addToCart{
+    background-color: #20bbfe;
+    color: white;
+}

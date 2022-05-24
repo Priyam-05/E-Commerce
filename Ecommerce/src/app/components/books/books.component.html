@@ -1,0 +1,17 @@
+<div>
+    <h2><i>Books Section</i></h2>
+</div>
+<br/>
+<mat-divider></mat-divider>
+<br/>
+
+<div >
+    <ul>
+        <li *ngFor="let data of booksData; let i = index" class="card"  style="width: 320px;">
+            <mat-card>
+                <app-card [data]="booksData" [i]="i"></app-card>
+            </mat-card>
+        </li>
+        <br>
+    </ul>
+</div>

@@ -1,0 +1,430 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "name": "test1",
+      "email": "test@gmail.com",
+      "phone": 12345,
+      "gender": "Male",
+      "dob": "02-02-2000",
+      "password": "test1",
+      "address": "India"
+    },
+    {
+      "id": 2,
+      "name": "test2",
+      "email": "test2@gmail.com",
+      "phone": 123456,
+      "gender": "Male",
+      "dob": "05-05-2000",
+      "password": "test2",
+      "address": "India"
+    },
+    {
+      "name": "sam",
+      "email": "sahilsharma7429@gmail.com",
+      "password": "8441654156",
+      "number": 4526256,
+      "id": 3
+    },
+    {
+      "name": "sam",
+      "email": "sahild.sharma@xoriant.com",
+      "password": "1234",
+      "number": 12343534,
+      "id": 4
+    },
+    {
+      "name": "sam",
+      "email": "dcd@fb.gn",
+      "password": "1232",
+      "phone": 2334324,
+      "dob": "2022-03-09T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "name": "Sahil",
+      "email": "sahil@gmail.com",
+      "password": "sahil12",
+      "phone": 234156789,
+      "dob": "2022-05-16T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "name": "Shradha",
+      "email": "shradha@gmail.com",
+      "password": "shradha12",
+      "phone": 3214569872,
+      "dob": "2022-05-02T18:30:00.000Z",
+      "id": 7
+    },
+    {
+      "name": "Priyam",
+      "email": "priyam@gmail.com",
+      "password": "34334",
+      "phone": 323434,
+      "dob": "3434-01-01T00:00:00.000Z",
+      "id": 8
+    }
+  ],
+  "books": [
+    {
+      "id": 101,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2PCpjn0KDq8vMduRuUmj5-fYb7lEClvihFQ&usqp=CAU",
+      "type": "Sci-Fi",
+      "rating": 4,
+      "title": "A Tale of two cities",
+      "price": 10000,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Priyam Shah"
+    },
+    {
+      "id": 102,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQquysRnTGiDsiEo4_SkQbJteaq29QXbudWtQ&usqp=CAU",
+      "type": "thriller",
+      "rating": 4.5,
+      "title": "Harry Potter",
+      "price": 14999,
+      "cartValue": 1,
+      "description": "",
+      "owner": "J.K. Rowling"
+    },
+    {
+      "id": 103,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZn9muLsBEgsK_NZO5b4pfXMjtsAdayAH43A&usqp=CAU",
+      "type": "horror",
+      "rating": 4.5,
+      "title": "The 1619 Project",
+      "price": 10499,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Sahil Sharma"
+    },
+    {
+      "id": 104,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYFUege28OuqzRkQHlz4l_40VhkfLTolkoKw&usqp=CAU",
+      "type": "fiction",
+      "rating": 2.5,
+      "title": "The Four Winds",
+      "price": 999,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Kristin Hannah"
+    },
+    {
+      "id": 105,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRmYGUpuqCLj2eIJhtb9Rv77Ocwr4zyuxA8A&usqp=CAU",
+      "type": "Romance",
+      "rating": 4,
+      "title": "We Begin at the End",
+      "price": 10000,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Chris Whitaker"
+    },
+    {
+      "id": 106,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx6P3S73OG6-hXGRr1-XDsdilgPyRd7jEfOw&usqp=CAU",
+      "type": "Mystery",
+      "rating": 5,
+      "title": "You've got this!",
+      "price": 10999,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Margie Warrell"
+    },
+    {
+      "id": 107,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqshv9lATdz06WDhJY4X_nw_BxkqYOFirBpw&usqp=CAU",
+      "type": "Classics",
+      "rating": 3,
+      "title": "The Silent Patient",
+      "price": 14499,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Alex Michaelides"
+    },
+    {
+      "id": 108,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSndF_BPOkH3UcIE-XQ5LYzIYprAC_anPIoOg&usqp=CAU",
+      "type": "Historical",
+      "rating": 4,
+      "title": "Verity",
+      "price": 7500,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Colleen Hoover"
+    },
+    {
+      "id": 109,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQyhJKkL9pApJieceJP6z2_COf8-quk8h5yA&usqp=CAU",
+      "type": "Fantasy",
+      "rating": 1.4,
+      "title": "The Namesake",
+      "price": 6999,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Jhumpa Lahiri"
+    },
+    {
+      "id": 110,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF9OOc1yNwDYrjpZ4-OS7xClla1bM0IrOw3A&usqp=CAU",
+      "type": "Fiction",
+      "rating": 3.5,
+      "title": "The Healing Self",
+      "price": 7999,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Deepak Chopra"
+    }
+  ],
+  "electronics": [
+    {
+      "id": 201,
+      "img": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m326bzbiins/gallery/in-galaxy-m32-5g-6gb-ram-sm-m326bzbiins-497607003?$684_547_PNG$",
+      "type": "Mobiles",
+      "rating": 3.9,
+      "title": "Samsung M32",
+      "price": 20999,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Samsung"
+    },
+    {
+      "id": 202,
+      "img": "https://www.reliancedigital.in/medias/HP-14s-DQ2535TU-Laptops-491996533-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wzNTM1NjV8aW1hZ2UvanBlZ3xpbWFnZXMvaGI5L2gzNS85NTQ2NjQwNjg3MTM0LmpwZ3xmZjYwYTczNjFiMzI0ZmZlNmNjMmZkYmViYzI2ZjNjOGJlNGY1N2UxZTVjZjE4N2FkNzQ1N2NhZDliMDdiOTgy",
+      "type": "Laptop",
+      "rating": 4.1,
+      "title": "HP 14s Windows 11",
+      "price": 43990,
+      "cartValue": 1,
+      "description": "",
+      "owner": "HP"
+    },
+    {
+      "id": 203,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-11-pro-space-gray-2019?wid=2000&hei=2000&fmt=jpeg&qlt=80&.v=1611101539000",
+      "type": "Mobiles",
+      "rating": 4.3,
+      "title": "IPhone 11 Pro",
+      "price": 121300,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Apple"
+    },
+    {
+      "id": 204,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2XQY4XUGqKXpam03XCgm09QN8Y5-jBVpSDl8zNBIPBCAkVSwGM5BOcl_rWalFak2fQCo&usqp=CAU",
+      "type": "TV",
+      "rating": 3.9,
+      "title": "OnePlus TV Q1",
+      "price": 69899,
+      "cartValue": 1,
+      "description": "",
+      "owner": "One Plus"
+    },
+    {
+      "id": 205,
+      "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSn97hDs5c4w_t9nQrQz4iXf1jG9bVGcu5wJYf1abdvHqIKX8HJy1ebszg37hAjQleiZafRhQybuNg&usqp=CAc",
+      "type": "Smart watch",
+      "rating": 4.3,
+      "title": "Boat Xtend",
+      "price": 3999,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Boat"
+    },
+    {
+      "id": 206,
+      "img": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQBpsfsDON7Lweb81mlaOfzOJiV0ssUTktM3JqRZwJsqefJOCHK0Daj4IaDFGU5AUsfih8WOIZ-Lw&usqp=CAc",
+      "type": "Earbuds",
+      "rating": 4.5,
+      "title": "Nothing Ear",
+      "price": 5999,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Nothing"
+    },
+    {
+      "id": 207,
+      "img": "https://www.luluhypermarket.in/medias/32897-01.jpg-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w0NDEzOTd8aW1hZ2UvanBlZ3xoYTEvaDNmLzg4MDQ4Mjc5ODc5OTgvMzI4OTctMDEuanBnXzEyMDBXeDEyMDBIfGU4YTVhOTc0NTUyNWI1NjJjNDJlNGI5YzQ4ZGE3ZGZhZjg5ZjQyYzE4NjdmMDM1YjlmZDgzOTdhZjBhMTljYTk",
+      "type": "Microwave",
+      "rating": 4.1,
+      "title": "Morphy Richards",
+      "price": 12999,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Morphy Richards"
+    },
+    {
+      "id": 208,
+      "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRzu1wi_H2LYOaOrho70fJ2vv4c5nD_00R-f2kxyoADPZh6PHWj0oaEBbhPvl0K5ZSdyIMysQ_XAg&usqp=CAc",
+      "type": "Speakers",
+      "rating": 4.6,
+      "title": "JBL Flip 4",
+      "price": 8499,
+      "cartValue": 1,
+      "description": "",
+      "owner": "JBL"
+    },
+    {
+      "id": 209,
+      "img": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1626945101/Croma%20Assets/Large%20Appliances/Washers%20and%20Dryers/Images/236730_jyxyuq.png/mxw_2048,f_auto",
+      "type": "Washing machine",
+      "rating": 1.8,
+      "title": "LG Fully Automatic",
+      "price": 49950,
+      "cartValue": 1,
+      "description": "",
+      "owner": "L.G."
+    },
+    {
+      "id": 210,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8L685MYtEPE6CJjWhPzNDiu1xsSyTvHvVdQ&usqp=CAU",
+      "type": "Neckband",
+      "rating": 4.2,
+      "title": "Boat Rockerz 235V2",
+      "price": 1299,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Boat"
+    }
+  ],
+  "clothes": [
+    {
+      "id": 301,
+      "img": "https://5.imimg.com/data5/SELLER/Default/2020/9/KG/PZ/DR/27070405/alien-print-sleeve-hoodie-for-girl-s-500x500-500x500.png",
+      "type": "Hoodies",
+      "rating": 4,
+      "title": "Alien Print Sleeve",
+      "price": 799,
+      "cartValue": 1,
+      "description": ""
+    },
+    {
+      "id": 302,
+      "img": "https://i.pinimg.com/736x/96/a4/3e/96a43e1f3c7e398026820a5ea290a30b.jpg",
+      "type": "Hoodies",
+      "rating": 3.6,
+      "title": "Black Mens Hoodie",
+      "price": 999,
+      "cartValue": 1,
+      "description": ""
+    },
+    {
+      "id": 303,
+      "img": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/15118724/2021/8/26/739b8975-5535-4bf7-a005-cb549d52e8421629959359907-Puma-Men-Tracksuits-6081629959359265-1.jpg",
+      "type": "Track Suits",
+      "rating": 5,
+      "title": "Puma Track Suit",
+      "price": 1599,
+      "cartValue": 1,
+      "description": ""
+    },
+    {
+      "id": 304,
+      "img": "https://cdn.fashiola.in/L85491751/hrx-by-hrithik-roshan-basketball-men-wet-weather-rapid-dry-solid-tracksuits.jpg",
+      "type": "Track Suits",
+      "rating": 1.9,
+      "title": "Grey mens track suit",
+      "price": 1399,
+      "cartValue": 1,
+      "description": ""
+    },
+    {
+      "id": 305,
+      "img": "https://i.pinimg.com/736x/8a/9a/d2/8a9ad2dc325c529ce54d4151d974e1d6.jpg",
+      "type": "Shirts",
+      "rating": 4,
+      "title": "Blue mens shirt",
+      "price": 599,
+      "cartValue": 1,
+      "description": ""
+    },
+    {
+      "id": 306,
+      "img": "https://img3.junaroad.com/uiproducts/18221226/pri_175_p-1643032041.jpg",
+      "type": "Shirts",
+      "rating": 3.5,
+      "title": "Stripped Mens shirt",
+      "price": 759,
+      "cartValue": 1,
+      "description": ""
+    },
+    {
+      "id": 307,
+      "img": "https://cdn11.bigcommerce.com/s-pkla4xn3/images/stencil/1280x1280/products/30666/288088/MANTLCONX-Newest-Solid-Autumn-Mens-Bomber-Jackets-Male-Casual-Zipper-Summer-Jacket-Men-Spring-Casual-Outwear__70237.1579947365.jpg?c=2",
+      "type": "Jackets",
+      "rating": 5,
+      "title": "Jacket Solid Black",
+      "price": 3999,
+      "cartValue": 1,
+      "description": ""
+    },
+    {
+      "id": 308,
+      "img": "https://5.imimg.com/data5/SELLER/Default/2020/9/YF/SA/YX/27294756/men-s-stylish-puffer-jacket-500x500.jpeg",
+      "type": "Jackets",
+      "rating": 3.6,
+      "title": "Bomber Jacket - Red",
+      "price": 3499,
+      "cartValue": 1,
+      "description": ""
+    },
+    {
+      "id": 309,
+      "img": "https://bestchineseproducts.com/wp-content/uploads/2019/04/denim-jackets.png",
+      "type": "Jackets",
+      "rating": 5,
+      "title": "Denim Jacket",
+      "price": 5999,
+      "cartValue": 1,
+      "description": ""
+    },
+    {
+      "id": 310,
+      "img": "https://5.imimg.com/data5/SELLER/Default/2020/9/VC/TT/YO/27294756/men-s-stylish-puffer-jacket-500x500.jpg",
+      "type": "Jackets",
+      "rating": 2.5,
+      "title": "Bomber Jacket - Black",
+      "price": 4999,
+      "cartValue": 1,
+      "description": ""
+    }
+  ],
+  "cart": [
+    {
+      "id": 201,
+      "img": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-m326bzbiins/gallery/in-galaxy-m32-5g-6gb-ram-sm-m326bzbiins-497607003?$684_547_PNG$",
+      "type": "Mobiles",
+      "rating": 3.9,
+      "title": "Samsung M32",
+      "price": 20999,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Samsung"
+    },
+    {
+      "id": 302,
+      "img": "https://i.pinimg.com/736x/96/a4/3e/96a43e1f3c7e398026820a5ea290a30b.jpg",
+      "type": "Hoodies",
+      "rating": 3.6,
+      "title": "Black Mens Hoodie",
+      "price": 999,
+      "cartValue": 1,
+      "description": ""
+    },
+    {
+      "id": 103,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZn9muLsBEgsK_NZO5b4pfXMjtsAdayAH43A&usqp=CAU",
+      "type": "horror",
+      "rating": 4.5,
+      "title": "The 1619 Project",
+      "price": 10499,
+      "cartValue": 1,
+      "description": "",
+      "owner": "Sahil Sharma"
+    }
+  ]
+}

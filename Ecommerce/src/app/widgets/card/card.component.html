@@ -1,0 +1,57 @@
+<div class="card">
+
+    <img mat-card-image
+        src= "{{ data[i].img }}"
+        height="200px" alt="Product Image">
+
+    <mat-card-title>{{ data[i].title }}</mat-card-title>
+    <mat-card-subtitle>in {{ data[i].type }}</mat-card-subtitle>
+
+    <mat-card-content>
+        <h4>
+            <span [ngClass]=" data[i].rating >= 4? 'badge green' : data[i].rating > 2?  'badge yellow' : 'badge red' ">
+                <span class="rating_text">{{ data[i].rating }}</span> &nbsp; <i class="fa-solid fa-star"></i>
+            </span>
+        </h4>
+        <mat-icon>currency_rupee</mat-icon>
+        <span style="font-size: 22px;vertical-align: top;">{{ data[i].price }}</span>
+    </mat-card-content>
+
+    <mat-card-actions>
+        <button mat-raised-button class="btn details" data-bs-toggle="modal" data-bs-target="#myModal">
+            <mat-icon>article</mat-icon>
+            Details
+        </button>
+        <button mat-raised-button class="addToCart" (click)="addToCart(data[i].id)">
+            <mat-icon>add_shopping_cart</mat-icon>
+            Add to Cart
+        </button>
+    </mat-card-actions>
+      
+      <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered" role="dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Modal Heading</h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              Modal body..
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      
+    
+</div>

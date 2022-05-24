@@ -1,0 +1,43 @@
+:host{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sidebar{
+    background-color: #f2f8ff;
+}
+
+.content{
+    background-image: linear-gradient(to right, #E0EAFC , #CFDEF3);
+}
+
+// .page-wrap{
+//     min-height: 90%;
+//     margin-bottom: -40px;
+// }
+
+// .page-wrap::after{
+//     content:"";
+//     display: block;
+// }
+
+// .footer, .page-wrap::after{
+//     height: 40px;
+// }
+
+// .footer{
+//     background: #222735;
+// }
+
+mat-drawer{
+    width: 300px;
+}
+
+mat-drawer-container{
+    height: 100%;
+}
+
+mat-drawer-content{
+    padding: 20px;
+}

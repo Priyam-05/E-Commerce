@@ -1,0 +1,36 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <div class="header">
+            <h2>Priyam Shah</h2>
+            <h4>priyam@email.com</h4>
+        </div>
+        <img *ngIf="isMale" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXIVTCqqZRI0-lRXEYucNqBi7Ydqp3lRCeNbSWp1MnVhvZogmXvGHB1T2ApBGBz7y2XVY&usqp=CAU" alt="Male Img">
+        <img *ngIf="!isMale" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdgsQb_YcG2ZzuQA_p7Nb0NBRPYFx6m1BHbO6teQ1Z2Zl1b-ySwyMpLJhHH4lscnfMXHk&usqp=CAU" alt="Female Img">
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <div class="sidebar-content">
+        <h2 matSubheader>Items</h2>
+
+        <a mat-list-item routerLink="link-item-active" routerLink="/dashboard/electronics"><mat-icon>electrical_services</mat-icon>Electronics</a>
+        <a mat-list-item routerLink="link-item-active" routerLink="/dashboard/clothes"><mat-icon>attribution</mat-icon>Clothes</a>
+        <a mat-list-item routerLink="link-item-active" routerLink="/dashboard/books"><mat-icon>import_contacts</mat-icon>Books</a>
+
+        <mat-divider></mat-divider>
+
+        <h2 matSubheader>Tools</h2>
+
+        <a mat-list-item routerLinkActive="list-item-active" routerLink="/settings">
+            <mat-icon>settings</mat-icon>
+            Settings
+        </a>
+
+        <a mat-list-item routerLinkActive="list-item-active" routerLink="/help">
+            <mat-icon>help_outline</mat-icon>
+            Help
+        </a>
+    </div>
+
+</mat-nav-list>
+

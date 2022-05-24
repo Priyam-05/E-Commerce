@@ -1,0 +1,130 @@
+<form class="container" [formGroup]="shippingForm" (ngSubmit)="onSubmit(shippingForm)">
+
+    <div class="row">
+      <h2> <mat-icon style="color: #20BBFE;">location_city</mat-icon> &nbsp;  SHIPPING DETAILS</h2>
+    </div>
+  
+    <div class="row">
+      <hr>
+    </div>
+   
+    <div class="row">
+      <div class='child'>
+        <label>
+          First Name <span>*</span>
+        </label>
+        <input type="text" class="form-control " formControlName="firstName" >
+        <div  class="alert" *ngIf="!shippingForm.controls['firstName'].valid &&
+         shippingForm.controls['firstName'].touched ">
+          Please provide first name.
+        </div>
+      </div>
+      <div class='child' style="float:right;" >
+        <label>
+          Last Name <span>*</span>
+        </label>
+          <input type="text" class="form-control" formControlName="lastName" >
+        
+        <div  class="alert" *ngIf="!shippingForm.controls['lastName'].valid &&
+        shippingForm.controls['lastName'].touched ">
+         Please provide last name.
+       </div>
+      </div>
+    </div>
+  
+    <br>
+    <div class="row">
+      <label>
+        Street Address <span>*</span>
+      </label>
+      <input type="text"  class="form-control" formControlName="streetAddress">
+      <div  class="alert" *ngIf="!shippingForm.controls['streetAddress'].valid &&
+      shippingForm.controls['streetAddress'].touched ">
+       Please provide street address.
+     </div>
+    </div>
+  
+    <br>
+    <div class="row">
+      <label>
+        Landmark 
+      </label>
+      <input type="text"  class="form-control" formControlName="landmark" >
+    </div>
+  
+    <br>
+    <div  class="row">
+      <div class='child'>
+        <label>
+          State <span>*</span>
+        </label>
+        <input type="text" class="form-control " formControlName="state" >
+        <div  class="alert" *ngIf="!shippingForm.controls['state'].valid &&
+        shippingForm.controls['state'].touched ">
+         Please provide state.
+       </div>
+      </div>
+      <div class='child' style="float: right;">
+        <label>
+          City <span>*</span>
+        </label>
+        <input type="text" class="form-control " formControlName="city" >
+        <div  class="alert" *ngIf="!shippingForm.controls['city'].valid &&
+         shippingForm.controls['city'].touched ">
+          Please provide city.
+        </div>
+      </div>
+    </div>
+  
+    
+    <br>
+    <div  class="row">
+      <div class='child'>
+        <label>
+          Zip Code <span>*</span>
+        </label>
+        <input type="number" class="form-control " formControlName="zipCode" >
+        <div  class="alert" *ngIf="!shippingForm.controls['zipCode'].valid &&
+         shippingForm.controls['zipCode'].touched ">
+          Please provide zip code.
+        </div>
+      </div>
+      <div class='child' style="float: right;">
+        <label>
+          Phone Number <span>*</span>
+        </label>
+        <input type="tel" class="form-control " formControlName="phone" >
+        <div  class="alert" *ngIf="!shippingForm.controls['phone'].valid &&
+         shippingForm.controls['phone'].touched ">
+          Please provide phone number.
+        </div>
+      </div>
+    </div>
+  
+  
+    <br>
+    <div  class="row">
+      <label>
+        Email Address <span>*</span>
+      </label>
+      <input type="email"  class="form-control" formControlName="email">
+      <div  class="alert" *ngIf="!shippingForm.controls['email'].valid &&
+      shippingForm.controls['email'].touched ">
+       Please provide email address.
+     </div>
+    </div>
+    <br>
+  
+    <div class="row">
+      <button 
+        mat-raised-button  
+        type="submit">
+        CONTINUE TO PAYMENT &nbsp; <mat-icon>trending_flat</mat-icon>
+      </button>
+  
+    </div>
+  
+  
+    </form>
+
+    <!-- [disabled]="shippingForm.invalid" -->

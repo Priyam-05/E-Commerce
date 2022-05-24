@@ -1,0 +1,27 @@
+mat-card {
+  max-width: 550px;
+  margin: 2em auto;
+  padding: 20px 100px;
+  border: 3px solid #222735;
+}
+
+.bg {
+  font-family: "Karla", sans-serif;
+  background-image: linear-gradient(to bottom right, #7d63f1, #b1b8db);
+  min-height: 100vh;
+}
+
+mat-form-field {
+  display: block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
